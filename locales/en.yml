@@ -1,0 +1,6 @@
+en:
+  lita:
+    handlers:
+      high_five:
+        help:
+          high_five_value: Get a high five.
