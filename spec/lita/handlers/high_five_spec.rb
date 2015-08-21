@@ -1,8 +1,8 @@
 require "spec_helper"
 
 describe Lita::Handlers::HighFive, lita_handler: true do
-  it { routes_command("o/").to(:high_five) }
-  it { routes_command("\\o").to(:inverse_high_five) }
+  it { is_expected.to route_command("o/").to(:high_five) }
+  it { is_expected.to route_command("\\o").to(:inverse_high_five) }
 
   describe "#high_five" do
     it "high fives you back" do
