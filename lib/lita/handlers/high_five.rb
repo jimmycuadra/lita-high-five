@@ -1,5 +1,3 @@
-require "lita"
-
 module Lita
   module Handlers
     class HighFive < Handler
@@ -18,7 +16,3 @@ module Lita
     Lita.register_handler(HighFive)
   end
 end
-
-Lita.load_locales Dir[File.expand_path(
-  File.join("..", "..", "..", "..", "locales", "*.yml"), __FILE__
-)]
