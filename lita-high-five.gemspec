@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-high-five"
-  spec.version       = "0.1.0"
+  spec.version       = "1.0.0"
   spec.authors       = ["Jimmy Cuadra"]
   spec.email         = ["jimmy@jimmycuadra.com"]
   spec.description   = %q{A Lita handler that won't leave you hanging.}
